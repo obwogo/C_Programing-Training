@@ -1,0 +1,3 @@
+#include <stdio.h>
+/*print fahrenhert_celsius table for fahr = 0,20.../ 300
+Author: OBWOGO TOM*/
