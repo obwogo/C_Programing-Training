@@ -1,13 +1,13 @@
 #include <stdio.h>
-int add(int a, int c, int d, int e)
+int add(int a, int c, int d, int e)/* creating a fuction */
 { 
 	return a+c+d+e;
 }
 
 int main()
 {
-	int (* add_pointer)(int a, int c, int d, int e);
-	add_pointer = add;
+	int (* add_pointer)(int a, int c, int d, int e);/* variable pointer to the function */
+	add_pointer = add; /*memory allocation */
 	int a = 30;
 	int c = 25;
 	int d = 100;
